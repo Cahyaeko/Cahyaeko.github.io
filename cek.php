@@ -15,7 +15,7 @@
             background-color: #6B3E9E; /* Warna latar belakang ungu */
             color: yellow; /* Warna teks kuning */
             padding: 20px; /* Ruang dalam card input */
-            border-radius: 10px; /* Sudut bulat */
+            border-radius: 15px; /* Sudut bulat */
         }
 
         /* CSS untuk tombol Submit */
