@@ -60,6 +60,8 @@
 <body>
     <div class="container">
         <h1 class="mb-4">Formulir Penghitung Upah Lemburan BE A MAN</h1>
+        <div class="card-body">
+            <p>kolom harus di isi bila tidak ada tunjangan isi dengan 0 (nol) </p>.</p>
 
         <!-- Card Bootstrap dengan kelas tambahan untuk penampilan kustom -->
         <div class="card custom-card-input">
@@ -71,12 +73,12 @@
                     </div>
 
                     <div class="mb-3">
-                        <label for="tunjangan" class="form-label">Tunjangan:</label>
+                        <label for="tunjangan" class="form-label">Semua Total Tunjangan:</label>
                         <input type="number" id="tunjangan" name="tunjangan" class="form-control" required>
                     </div>
 
                     <div class="mb-3">
-                        <label for="totalJamLembur" class="form-label">Total Jam Lembur:</label>
+                        <label for="totalJamLembur" class="form-label">Total Jam Lembur setelah perkalian jam:</label>
                         <input type="number" id="totalJamLembur" name="totalJamLembur" class="form-control" required>
                     </div>
 
@@ -84,7 +86,7 @@
                     <button type="button" class="btn btn-secondary" onclick="clearForm()">Clear</button>
 
                     <!-- Tautan ke halaman cek.php tanpa membuka halaman baru -->
-                    <a href="cek.html" target="_self" class="btn btn-info">Cek total jam lembur</a>
+                    <a href="cek.html" target="_self" class="btn btn-info">Cek total perkalian jam lembur</a>
                 </form>
             </div>
         </div>
